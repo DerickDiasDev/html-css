@@ -20,6 +20,21 @@ header > h1 {
     text-align: center;
 }
 
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 2px solid gray;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
     display: block;
 }
@@ -54,6 +69,12 @@ main {
 
 article > h2 {
     padding-bottom: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+article > p {
+    text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
 }
